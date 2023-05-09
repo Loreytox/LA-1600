@@ -43,13 +43,19 @@ In diesem Projekt erstellen wir eine Weibeiste auf der Rezepte für verschiedene
 
 ### 1.4 Diagramme
 
-![MicrosoftTeam![Use-Case-Diagramm](https://user-images.githubusercontent.com/110892495/237041554-0625a1c3-bd39-4ad1-abc7-2fa5e7e4e5d0.png)
-![Screenshot 2023-05-09 110042](https://user-images.githubusercontent.com/110892495/237047863-caf3f218-6b1e-4e46-ada6-795750ef7a78.png)
+
+
+
+![MicrosoftTeams-image](https://user-images.githubusercontent.com/110892495/237048334-93fceb6a-775d-4062-86c9-f0a18128ebb8.png)
+
+
+![Screenshot 2023-05-09 110042](https://user-images.githubusercontent.com/110892495/237048426-75646ebd-69d2-46ba-8805-a56199f1578c.png)
 
 
 
 
-![Use-Case-Diagramm](https://user-images.githubusercontent.com/110892495/237047438-024642e5-9bcc-41dd-95c7-8dffa70d4a55.png)
+
+
 
 ## 2 Planen
 
