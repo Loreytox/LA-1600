@@ -61,18 +61,21 @@ In diesem Projekt erstellen wir eine Webseite auf der Rezepte für verschiedene 
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |           |              |               |
-| 1.B  |       |           |              |               |
-| 1.C  |       |           |              |               |
-| 1.D  |       |           |              |               |
-| 2.A  |       |           |              |               |
-| 2.B  |       |           |              |               |
-| 2.C  |       |           |              |               |
-| 2.D  |       |           |              |               |
-| 3.A  |       |           |              |               |
-| 3.B  |       |           |              |               |
-| 3.C  |       |           |              |               |
-| 3.D  |       |           |              |               |
+| 1.A  |   09.05   |     Pascal      |      Drop-Down Liste programmieren (HTML)        |       45       |
+| 1.B  |    09.05   |    Lorenzo/Alexander       |       Drop-Down Liste Design      |       30        |
+| 1.C  |   09.05   |     Pascal      |      Drop-Down Liste Implementieren/anpassen        |       30       |
+| 2.A  |   16.05    |     Alexander/Lorenzo      |      Dark-Mode Design und Skizze        |       25        |
+| 2.B  |    16.05   |     Pascal/Lorenzo      |       Dark-Mode programmieren       |       45        |
+| 2.C  |   16.05    |     Pascal/Lorenzo      |       Dark-Mode implementieren       |       30        |
+| 3.A  |    16.05   |     Alexander      |       Mousezeiger Bild Idee und Design       |       15        |
+| 3.B  |    16.05   |     Pascal/Alexander      |       Mouszeiger programmieren       |        45       |
+| 3.C  |    16.05   |     Pascal/Alexander      |       Mouszeiger implementieren       |        25       |
+| 4.A |   16.05    |      Lorenzo/Alexander     |       Sprachenauswahl Design und Skizze       |        15       |
+| 4.B  |   16.05    |     Pascal/Lorenzo      |       Sprachenauswahl programmieren       |        45       |
+| 4.C  |   16.05    |     Pascal/Lorenzo      |       Sprachenauswahl implementieren (Erweitern)       |        45 - 60       |
+| 5.A  |   16.05    |     Alexander      |       Anzahl Personen ändern Idee und Design     |       15       |
+| 5.B  |   16.05    |     Pascal/Alexander      |       Anzahl Personen ändern programmieren       |        60       |
+| 5.C  |   16.05    |     Pascal/Alexander      |      Anzahl Personen ändern implementieren7anpassen     |        25       |
 
 Total: 
 
