@@ -12,17 +12,17 @@ Lai, Warnebold, Oestrich, Veljkovic
 
 ### 1.1 Ihr Projekt
 
-In diesem Projekt erstellen wir eine Weibeiste auf der Rezepte für verschiedene Pizzen gezeigt werden.
+In diesem Projekt erstellen wir eine Webseite auf der Rezepte für verschiedene Pizzen gezeigt werden.
 
 ### 1.2 User Stories
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |        Muss         |   Funktional   | Als User möchte ich , eine Drop-Down Liste sehen und mit dieser arbeiten können, damit ich die Pizza Rezepte studieren kann.
+| 1    |        Muss         |   Funktional   | Als User möchte ich eine Drop-Down Liste sehen und mit dieser arbeiten können, damit ich die Pizzarezepte studieren kann.
 | 2 |        Kann |   Qualität    | Als User möchte ich die Möglichkeit haben Dark-Mode anzuwählen, damit ich die Webseite auch in der Nacht ansehen kann.
-| 3 |  Kann    |  Qualität  |  Als User möchte ich mit dem Mauszeiger Über den Namen einer Pizza fahren, dabei soll ein Bild gezeigt werden solang der Mauszeiger über dem Namen der Pizza ist, damit ich weiss, wie es aussieht.  |
+| 3 |  Kann    |  Qualität  |  Als User möchte ich mit dem Mauszeiger über den Namen einer Pizza fahren. Dabei soll ein Bild gezeigt werden solange der Mauszeiger über dem Namen der Pizza ist, damit ich weiss, wie die Pizza aussieht.  |
 | 4 |  Muss  |  Funktional  |  Als User möchte ich, dass man auch andere Sprachen auswählen kann, damit jeder die Webseite besuchen kann.  |
-| 5 |  Kann  |  Funktional  |  Als user möchte ich die Anzahl Personen ändern können, damit sich die Mengenangaben zu der Anzahl Personen anpasst.    |
+| 5 |  Kann  |  Funktional  |  Als User möchte ich die Anzahl Personen ändern können, damit sich die Mengenangaben zu der Anzahl Personen anpasst.    |
 |  |    |    |      |
 |  |    |    |      |
 |  |    |    |      |
@@ -33,7 +33,7 @@ In diesem Projekt erstellen wir eine Weibeiste auf der Rezepte für verschiedene
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  |  Website geöffnet            |         |    Dropdown Liste               |
+| 1.1  |  Website geöffnet            |         |    Dropdown Liste sichtbar             |
 | 2.1  |  Website geöffnet            |  Dark-Mode auswählen       |    Website wird dunkel               |
 | 3.1  |  Website geöffnet            |  über Pizza fahren       |    Bild von Pizza              |
 | 4.1  |  Website geöffnet            |  Sprache auswählen       |    Andere Sprache              |
@@ -83,7 +83,7 @@ Total:
 ## 3 Entscheiden
 
 Wir haben uns entschieden eine Website mit Rezepten für Pizzen zu erstellen.
-Wir machen es mit HTML und CSS
+Wir machen es mit HTML und CSS.
 
 ## 4 Realisieren
 
