@@ -27,7 +27,7 @@ In diesem Projekt erstellen wir eine Weibeiste auf der Rezepte für verschiedene
 |  |    |    |      |
 |  |    |    |      |
 
-✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
+
 
 ### 1.3 Testfälle
 
