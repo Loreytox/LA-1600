@@ -62,26 +62,23 @@ In diesem Projekt erstellen wir eine Webseite auf der Rezepte für verschiedene 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
 | 1.A  |   09.05   |     Pascal      |      Drop-Down Liste programmieren (HTML)        |       45       |
-| 1.B  |    09.05   |    Lorenzo/Alexander       |       Drop-Down Liste Design      |       30        |
-| 1.C  |   09.05   |     Pascal      |      Drop-Down Liste Implementieren/anpassen        |       30       |
-| 2.A  |   16.05    |     Alexander/Lorenzo      |      Dark-Mode Design und Skizze        |       25        |
+| 1.B  |    09.05   |    Lorenzo/Alexander/Simon       |       Drop-Down Liste Design      |       30        |
+| 1.C  |   09.05   |     Pascal      |      Drop-Down Liste implementieren/anpassen        |       30       |
+| 2.A  |   16.05    |     Alexander/Lorenzo/Simon      |      Dark-Mode Design und Skizze        |       25        |
 | 2.B  |    16.05   |     Pascal/Lorenzo      |       Dark-Mode programmieren       |       45        |
 | 2.C  |   16.05    |     Pascal/Lorenzo      |       Dark-Mode implementieren       |       30        |
 | 3.A  |    16.05   |     Alexander      |       Mousezeiger Bild Idee und Design       |       15        |
-| 3.B  |    16.05   |     Pascal/Alexander      |       Mouszeiger programmieren       |        45       |
-| 3.C  |    16.05   |     Pascal/Alexander      |       Mouszeiger implementieren       |        25       |
-| 4.A |   16.05    |      Lorenzo/Alexander     |       Sprachenauswahl Design und Skizze       |        15       |
-| 4.B  |   16.05    |     Pascal/Lorenzo      |       Sprachenauswahl programmieren       |        45       |
-| 4.C  |   16.05    |     Pascal/Lorenzo      |       Sprachenauswahl implementieren (Erweitern)       |        45 - 60       |
-| 5.A  |   16.05    |     Alexander      |       Anzahl Personen ändern Idee und Design     |       15       |
+| 3.B  |    16.05   |     Pascal/Alexander      |       Mousezeiger programmieren       |        45       |
+| 3.C  |    16.05   |     Pascal/Alexander      |       Mousezeiger implementieren       |        25       |
+| 4.A |   16.05    |      Lorenzo/Alexander/Simon     |       Sprachauswahl (Design und Skizze)       |        15       |
+| 4.B  |   16.05    |     Pascal/Lorenzo      |       Sprachauswahl programmieren       |        45       |
+| 4.C  |   16.05    |     Pascal/Lorenzo      |       Sprachauswahl implementieren (erweitern)       |        45 - 60       |
+| 5.A  |   16.05    |     Alexander      |       Anzahl Personen ändern (Idee und Design)     |       15       |
 | 5.B  |   16.05    |     Pascal/Alexander      |       Anzahl Personen ändern programmieren       |        60       |
-| 5.C  |   16.05    |     Pascal/Alexander      |      Anzahl Personen ändern implementieren7anpassen     |        25       |
+| 5.C  |   16.05    |     Pascal/Alexander      |      Anzahl Personen ändern implementieren, anpassen     |        25       |
 
-Total: 
+Total: 15 Arbeitspakete
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, auf die sich das Arbeitspaket bezieht, und `m` von `A` an nach oben buchstabiert. Beispiel: Das dritte Arbeitspaket, das die zweite User Story betrifft, hat also die Nummer `2.C`.
-
-✍️ Ein Arbeitspaket sollte etwa 45' für eine Person in Anspruch nehmen. Die totale Anzahl Arbeitspakete sollte etwa Folgendem entsprechen: `Anzahl R-Sitzungen` ╳ `Anzahl Gruppenmitglieder` ╳ `4`. Wenn Sie also zu dritt an einem Projekt arbeiten, für welches zwei R-Sitzungen geplant sind, sollten Sie auf `2` ╳ `3` ╳`4` = `24` Arbeitspakete kommen. Sollten Sie merken, dass Sie hier nicht genügend Arbeitspakte haben, denken Sie sich weitere "Kann"-User Stories für Kapitel 1.2 aus.
 
 ## 3 Entscheiden
 
