@@ -33,10 +33,13 @@ In diesem Projekt erstellen wir eine Weibeiste auf der Rezepte für verschiedene
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  |              |         |                   |
-| ...  |              |         |                   |
+| 1.1  |  Website geöffnet            |         |    Dropdown Liste               |
+| 2.1  |  Website geöffnet            |  Dark-Mode auswählen       |    Website wird dunkel               |
+| 3.1  |  Website geöffnet            |  über Pizza fahren       |    Bild von Pizza              |
+| 4.1  |  Website geöffnet            |  Sprache auswählen       |    Andere Sprache              |
+| 5.1  |  Website geöffnet            |  Anzahl Personen      |    Mengenangabe für Anzahl Personen               |
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
+
 
 ### 1.4 Diagramme
 
@@ -50,7 +53,17 @@ s-image](https://user-images.githubusercontent.com/110892495/237028581-e3e8f0fd-
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
 | 1.A  |       |           |              |               |
-| ...  |       |           |              |               |
+| 1.B  |       |           |              |               |
+| 1.C  |       |           |              |               |
+| 1.D  |       |           |              |               |
+| 2.A  |       |           |              |               |
+| 2.B  |       |           |              |               |
+| 2.C  |       |           |              |               |
+| 2.D  |       |           |              |               |
+| 3.A  |       |           |              |               |
+| 3.B  |       |           |              |               |
+| 3.C  |       |           |              |               |
+| 3.D  |       |           |              |               |
 
 Total: 
 
@@ -60,13 +73,14 @@ Total:
 
 ## 3 Entscheiden
 
-✍️ Dokumentieren Sie hier Ihre Entscheidungen und Annahmen, die Sie im Bezug auf Ihre User Stories und die Implementierung getroffen haben.
+Wir haben uns entschieden eine Website mit Rezepten für Pizzen zu erstellen.
+Wir machen es mit HTML und CSS
 
 ## 4 Realisieren
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |       |           |               |                   |
+| 1.A  | 09.05.2023      |   Lai        |     30min          |    20min               |
 | ...  |       |           |               |                   |
 
 ✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
