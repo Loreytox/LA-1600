@@ -35,7 +35,7 @@ Auf dieser Website kann man sich von einer Auswahl an Pizzas eine aussuchen und 
 
 ### 1.4 Diagramme
 
-
+![MicrosoftTeams-image](https://user-images.githubusercontent.com/110892495/237028581-e3e8f0fd-d058-46fe-b7ab-871e98643c1c.png)
 
 ## 2 Planen
 
