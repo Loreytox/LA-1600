@@ -44,7 +44,8 @@ In diesem Projekt erstellen wir eine Weibeiste auf der Rezepte für verschiedene
 ### 1.4 Diagramme
 
 ![MicrosoftTeam![Use-Case-Diagramm](https://user-images.githubusercontent.com/110892495/237041554-0625a1c3-bd39-4ad1-abc7-2fa5e7e4e5d0.png)
-s-image](https://user-images.githubusercontent.com/110892495/237028581-e3e8f0fd-d058-46fe-b7ab-871e98643c1c.png)
+![Screenshot 2023-05-09 110042](https://user-images.githubusercontent.com/110892495/237047863-caf3f218-6b1e-4e46-ada6-795750ef7a78.png)
+
 
 
 
