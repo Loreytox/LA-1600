@@ -48,6 +48,8 @@ s-image](https://user-images.githubusercontent.com/110892495/237028581-e3e8f0fd-
 
 
 
+![Use-Case-Diagramm](https://user-images.githubusercontent.com/110892495/237047438-024642e5-9bcc-41dd-95c7-8dffa70d4a55.png)
+
 ## 2 Planen
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
