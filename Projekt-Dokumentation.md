@@ -19,8 +19,14 @@ Auf dieser Website kann man sich von einer Auswahl an Pizzas eine aussuchen und 
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |                 |      | Als ein User möchte ich , damit 🤷‍♂️ |
-| ...  |                 |      |                                    |
+| 1    |        Muss         |   Funktional   | Als User möchte ich , eine Drop-Down Liste sehen und mit diesen arbeiten können, damit ich die Pizza Rezepten studieren kann.
+| 2 |        Optional |   Qualität    | Als User möchte ich, die Möglichkeit haben, Dark-Mode anzuwählen, damit ich dei Webseite auch in der Nacht ansehen kann.
+| 3 |  Optional    |  Qualität  |  Als User möchte ich, dass wenn man mit dem Mauszeiger Über den Namen eines Pizzas überfahrt, wird ein Bild gezeigt, solang den Mauszeiger über den Namen des Pizzas ist, damit ich weiss, wie es aussieht  |
+| 4 |  Muss  |  Funktional  |  Als User möchte ich, dass man auch andere Sprachen auswählen kann, damit jedermann die Webseite besuchen kann.  |
+|  |    |    |      |
+|  |    |    |      |
+|  |    |    |      |
+|  |    |    |      |
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
