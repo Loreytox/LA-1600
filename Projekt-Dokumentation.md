@@ -12,18 +12,17 @@ Lai, Warnebold, Oestrich, Veljkovic
 
 ### 1.1 Ihr Projekt
 
-Wir machen einen Pizza-Onlineshop mit CSS.
-Auf dieser Website kann man sich von einer Auswahl an Pizzas eine aussuchen und kaufen. Gleichzeitig kann man mit verschiedenen Features auf der Website herumspielen.
+In diesem Projekt erstellen wir eine Weibeiste auf der Rezepte für verschiedene Pizzen gezeigt werden.
 
 ### 1.2 User Stories
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |        Muss         |   Funktional   | Als User möchte ich , eine Drop-Down Liste sehen und mit diesen arbeiten können, damit ich die Pizza Rezepten studieren kann.
-| 2 |        Optional |   Qualität    | Als User möchte ich, die Möglichkeit haben, Dark-Mode anzuwählen, damit ich dei Webseite auch in der Nacht ansehen kann.
-| 3 |  Optional    |  Qualität  |  Als User möchte ich, dass wenn man mit dem Mauszeiger Über den Namen eines Pizzas überfahrt, wird ein Bild gezeigt, solang den Mauszeiger über den Namen des Pizzas ist, damit ich weiss, wie es aussieht  |
-| 4 |  Muss  |  Funktional  |  Als User möchte ich, dass man auch andere Sprachen auswählen kann, damit jedermann die Webseite besuchen kann.  |
-|  |    |    |      |
+| 1    |        Muss         |   Funktional   | Als User möchte ich , eine Drop-Down Liste sehen und mit dieser arbeiten können, damit ich die Pizza Rezepte studieren kann.
+| 2 |        Kann |   Qualität    | Als User möchte ich die Möglichkeit haben Dark-Mode anzuwählen, damit ich die Webseite auch in der Nacht ansehen kann.
+| 3 |  Kann    |  Qualität  |  Als User möchte ich mit dem Mauszeiger Über den Namen einer Pizza fahren, dabei soll ein Bild gezeigt werden solang der Mauszeiger über dem Namen der Pizza ist, damit ich weiss, wie es aussieht.  |
+| 4 |  Muss  |  Funktional  |  Als User möchte ich, dass man auch andere Sprachen auswählen kann, damit jeder die Webseite besuchen kann.  |
+| 5 |  Kann  |  Funktional  |  Als user möchte ich die Anzahl Personen ändern können, damit sich die Mengenangaben zu der Anzahl Personen anpasst.    |
 |  |    |    |      |
 |  |    |    |      |
 |  |    |    |      |
