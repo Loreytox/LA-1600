@@ -35,7 +35,7 @@ Auf dieser Website kann man sich von einer Auswahl an Pizzas eine aussuchen und 
 
 ### 1.4 Diagramme
 
-✍️Fügen Sie hier ein Use Case-Diagramm mit mindestens 10 Anwendungsfällen ein; und einen PAP.
+
 
 ## 2 Planen
 
