@@ -4,7 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mogra&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
     <title>Pizza Online Shop</title>
 
     <style>
@@ -15,9 +22,12 @@
       }
 
       body {
-        font-family: 'Roboto', sans-serif;
+        font-family: "Roboto", sans-serif;
         color: #333;
         line-height: 1.6;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
       }
 
       a {
@@ -31,6 +41,24 @@
         color: white;
         text-align: center;
         font-size: 2rem;
+      }
+
+      .under-header {
+        background-color: black;
+        padding: 1rem;
+        color: white;
+        text-align: center;
+        font-size: 25px;
+      }
+      .header-container{
+        text-align: center;
+        background-color: palegreen;
+        margin-right: 30px;
+        margin-left: 30px;
+      }
+      .infoBeauty{
+        font-family: 'Mogra', cursive;
+        font-size: 20px;
       }
 
       nav {
@@ -61,11 +89,12 @@
         flex-basis: 20%;
         margin: 1rem;
         background: #fff;
-        box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+        box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
         border-radius: 10px;
         text-align: center;
         overflow: hidden;
         transition: transform 0.3s;
+        height: 390px;
       }
 
       .pizza-item:hover {
@@ -112,6 +141,7 @@
       .pizza-item:hover .pizza-info {
         display: block;
       }
+
       footer {
         background-color: #333;
         color: white;
@@ -123,107 +153,164 @@
       footer p {
         font-size: 0.875rem;
       }
+
+      .mainDiv {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+
+      main {
+        flex: 1 0 auto;
+      }
+
+      footer {
+        flex-shrink: 0;
+      }
+
+      
+
     </style>
   </head>
 
   <body>
     <div class="mainDiv">
       <header>
-        <h1>Willkommen auf dem PizzaonlineShop
-
-
+        <h1>Willkommen auf dem PizzaOnlineShop</h1>
       </header>
       <nav>
         <a href="#Pizzas-Container">Pizzen</a>
         <a href="#Kontakt">Kontakt</a>
-        <a href="#Infos">Infos</a>
+        <a href="#info-header">Infos</a>
       </nav>
 
       <main>
         <div class="Pizzas-Container">
           <div class="pizza-item">
-            <img src="margherita.jpg" alt="Margherita">
-            <h2>Margherita</h2>
+            <div class="pizza-content">
+              <img src="margherita.jpg" alt="Margherita" />
+              <h2>Margherita</h2>
+              <button>In den Warenkorb</button>
+              <div class="pizza-info">
+                <h4>Infos</h4>
+                <p>Zutaten: Tomaten, Mozzarella, Basilikum, Olivenöl</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="pizza-item">
+            <img src="Funghi.jpg" alt="Funghi" />
+            <h2>Funghi</h2>
             <button>In den Warenkorb</button>
             <div class="pizza-info">
               <h4>Infos</h4>
-              <p>Zutaten: Tomaten, Mozzarella, Basilikum, Olivenöl</p>
+              <p>Zutaten: Tomaten, Mozzarella, Champignons, Olivenöl</p>
             </div>
           </div>
 
           <div class="pizza-item">
-            <img src="Funghi.jpg" alt="Funghi">
-            <h2>Funghi</h2>
-              <button>In den Warenkorb</button>
-                <div class="pizza-info">
-                  <h4>Infos</h4>
-                  <p>Zutaten: Tomaten, Mozzarella, Champignons, Olivenöl</p>
-                </div>
-          </div>
-
-          <div class="pizza-item">
-            <img src="Prosciutto.jpg" alt="Proscuitto">
+            <img src="Prosciutto.jpg" alt="Proscuitto" />
             <h2>Proscuitto</h2>
             <div class="button-container">
               <button>In den Warenkorb</button>
-                <div class="pizza-info">
-                  <h4>Infos</h4>
-                  <p>Zutaten: Tomatensauce, Mozzarella, Schinken</p>
-                </div>
+              <div class="pizza-info">
+                <h4>Infos</h4>
+                <p>Zutaten: Tomatensauce, Mozzarella, Schinken</p>
+              </div>
             </div>
           </div>
 
           <div class="pizza-item">
-            <img src="Rucola.jpg" alt="Rucola">
+            <img src="Rucola.jpg" alt="Rucola" />
             <h2>Rucola</h2>
             <div class="button-container">
               <button>In den Warenkorb</button>
-                <div class="pizza-info">
-                  <h4>Infos</h4>
-                  <p>Zutaten: Tomatensauce, Parmesan, Oliven, Rucola</p>
-                </div>
+              <div class="pizza-info">
+                <h4>Infos</h4>
+                <p>Zutaten: Tomatensauce, Parmesan, Oliven, Rucola</p>
+              </div>
             </div>
           </div>
 
           <div class="pizza-item">
-            <img src="Rustica.jpg" alt="Rustica">
+            <img src="Rustica.jpg" alt="Rustica" />
             <h2>Rustica</h2>
             <div class="button-container">
               <button>In den Warenkorb</button>
-                <div class="pizza-info">
-                  <h4>Infos</h4>
-                  <p>Zutaten: Tomatensauce, Speck, Mozzarella, Ei</p>
-                </div>
+              <div class="pizza-info">
+                <h4>Infos</h4>
+                <p>Zutaten: Tomatensauce, Speck, Mozzarella, Ei</p>
+              </div>
             </div>
           </div>
 
           <div class="pizza-item">
-            <img src="Ambatukam.jpg" alt="Ambatukam">
+            <img src="Ambatukam.jpg" alt="Ambatukam" />
             <h2>Dreamybull</h2>
             <div class="button-container">
               <button>In den Warenkorb</button>
-                <div class="pizza-info">
-                  <h4>Infos</h4>
-                  <p>Zutaten: AMBATUKAM, OHMAYGOD, AMBASING</p>
-                </div>
+              <div class="pizza-info">
+                <h4>Infos</h4>
+                <p>Zutaten: AMBATUKAM, OHMAYGOD, AMBASING</p>
+              </div>
             </div>
           </div>
 
           <div class="pizza-item">
-            <img src="Tonno.jpg" alt="Tonno">
+            <img src="Tonno.jpg" alt="Tonno" />
             <h2>Tonno</h2>
             <div class="button-container">
               <button>In den Warenkorb</button>
-                <div class="pizza-info">
-                  <h4>Infos</h4>
-                  <p>Zutaten: Tomatensauce, Thon, Zwiebel, Parmesan</p>
-                </div>
+              <div class="pizza-info">
+                <h4>Infos</h4>
+                <p>Zutaten: Tomatensauce, Thon, Zwiebel, Parmesan</p>
+              </div>
             </div>
           </div>
-
         </div>
 
-        <h2>Abschnitt 2</h2>
+        <div class="header-container">
+
+        <header class="under-header">
+          <h2>Infos</h2>
+        </header>
+
+        <div class="infoBeauty">
+          <br>
+          <h2>Die Pizzen</h2>
+          <p>
+            Alle Pizzen wurden mit vollem italienischem Herz und Stolz hergestellt. Die Rezepte wurden von Experten umgesetzt und versprechen hohe Qualität. Wir haben hier eine Auswahl der beliebtesten Pizzen bereitgestellt, sogar eine Fantasie-Pizza namens Pizza Dreamybull. Ihr könnt euch eine beliebige Pizza auswählen und sie zu einem fairen Preis kaufen. Guten Appetit!</p>
+            <br>
+            <h2>Unsere Marke</h2>
+            <p>
+              Unsere Marke heisst Pizza Italia. Wir erhielten das Recht, die Marke eines berühmten italienischen Pizzabäckers weiterzuverarbeiten und unter dieser Marke unsere Firma zu führen. Seitdem wir unsere Firma nach dieser Marke führen, wurde sie auch in der Schweiz populär.  Dadurch sind wir auf dem Markt auf gutem Kurs.
+            </p>
+            <br>
+            <h2>Über uns</h2>
+              <p>
+                Wir haben diesen Pizzadienst vor einem Jahr eröffnet. Unsere Firma hat seinen Sitz in Baden direkt neben der Kanti. Der Chef dieser Firma ist Dreamybull. Die Angestellten sind jegliche seiner Kollegen die bereits in diversen Pizzerias gearbeitet haben. Das Personal wird in Zukunft noch mehr ausgebaut, sodass wir unser Ziel – die grösste und beste Gastronomie-Firma zu werden – bis 2030 erreichen.
+              </p>
+              <br>
+            </div>
+
+      </div>
+
+      <div class="header-container">
+
+        <header class="under-header">
+          <h2>Kontakt</h2>
+        </header>
+
+
+
+
+
+
+
+
+        
+      </div>
+        
       </main>
 
       <footer>
@@ -232,5 +319,3 @@
     </div>
   </body>
 </html>
-
-
