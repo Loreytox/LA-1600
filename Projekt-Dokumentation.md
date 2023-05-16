@@ -5,7 +5,7 @@ Lai, Warnebold, Oestrich, Veljkovic
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
 |09.05.2023| 0.0.1 |Wir haben einen ersten Prototyp der Website kreiert.|
-|       | ...     |                                                              |
+| 16.05.2023      | 0.9.0 | Wir haben den grössten Teil unser User stories und mehr schon implementiert. (Julian Alexander. Warnebold war nicht anwesend) |
 |       | 1.0.0   |                                                              |
 
 ## 1 Informieren
@@ -24,10 +24,6 @@ In diesem Projekt erstellen wir eine Webseite auf der Rezepte für verschiedene 
 | 4 |  Muss  |  Funktional  |  Als User möchte ich, dass man auch andere Sprachen auswählen kann, damit jeder die Webseite besuchen kann.  |
 | 5 |  Kann  |  Funktional  |  Als User möchte ich Informationen über die einzelnen Pizzen und die Firma lesen können, damit ich weiss, was ich überhaupt am Kaufen bin, um mehr Erfahrung darüber zu haben.     |
 |  |    |    |      |
-|  |    |    |      |
-|  |    |    |      |
-
-
 
 ### 1.3 Testfälle
 
