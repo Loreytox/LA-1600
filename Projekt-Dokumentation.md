@@ -18,9 +18,9 @@ In diesem Projekt erstellen wir eine Webseite auf der Rezepte für verschiedene 
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |        Muss         |   Funktional   | Als User möchte ich eine Drop-Down Liste sehen und mit dieser arbeiten können, damit ich die Pizzarezepte studieren kann.
+| 1    |        Muss         |   Funktional   | Als User möchte ich ein Menu haben mit Optionen, wie zum Beispiel: Infos, Kontakt etc...
 | 2 |        Kann |   Qualität    | Als User möchte ich die Möglichkeit haben Dark-Mode anzuwählen, damit ich die Webseite auch in der Nacht ansehen kann.
-| 3 |  Kann    |  Qualität  |  Als User möchte ich mit dem Mauszeiger über den Namen einer Pizza fahren. Dabei soll ein Bild gezeigt werden solange der Mauszeiger über dem Namen der Pizza ist, damit ich weiss, wie die Pizza aussieht.  |
+| 3 |  Kann    |  Qualität  |  Als User möchte ich mit dem Mauszeiger über die gewollte Pizza fahren. Dabei sollten die benutzten Zutaten gezeigt werden, solange der Mauszeiger über die Pizza ist, damit ich weiss, wie die Pizza gemacht ist.  |
 | 4 |  Muss  |  Funktional  |  Als User möchte ich, dass man auch andere Sprachen auswählen kann, damit jeder die Webseite besuchen kann.  |
 | 5 |  Kann  |  Funktional  |  Als User möchte ich die Anzahl Personen ändern können, damit sich die Mengenangaben zu der Anzahl Personen anpasst.    |
 |  |    |    |      |
@@ -40,10 +40,7 @@ In diesem Projekt erstellen wir eine Webseite auf der Rezepte für verschiedene 
 | 5.1  |  Website geöffnet            |  Anzahl Personen      |    Mengenangabe für Anzahl Personen               |
 
 
-
 ### 1.4 Diagramme
-
-
 
 
 ![MicrosoftTeams-image](https://user-images.githubusercontent.com/110892495/237048334-93fceb6a-775d-4062-86c9-f0a18128ebb8.png)
@@ -52,25 +49,20 @@ In diesem Projekt erstellen wir eine Webseite auf der Rezepte für verschiedene 
 ![Screenshot 2023-05-09 110042](https://user-images.githubusercontent.com/110892495/237048426-75646ebd-69d2-46ba-8805-a56199f1578c.png)
 
 
-
-
-
-
-
 ## 2 Planen
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |   09.05   |     Pascal      |      Drop-Down Liste programmieren (HTML)        |       45       |
-| 1.B  |    09.05   |    Lorenzo/Alexander/Simon       |       Drop-Down Liste Design      |       30        |
-| 1.C  |   09.05   |     Pascal      |      Drop-Down Liste implementieren/anpassen        |       30       |
+| 1.A  |   09.05   |     Pascal      |      Menu programmieren (HTML)        |       45       |
+| 1.B  |    09.05   |    Lorenzo/Alexander/Simon       |       Menu Design      |       30        |
+| 1.C  |   09.05   |     Pascal      |      Menu implementieren/anpassen        |       30       |
 | 2.A  |   16.05    |     Alexander/Lorenzo/Simon      |      Dark-Mode Design und Skizze        |       25        |
 | 2.B  |    16.05   |     Pascal/Lorenzo      |       Dark-Mode programmieren       |       45        |
 | 2.C  |   16.05    |     Pascal/Lorenzo      |       Dark-Mode implementieren       |       30        |
 | 3.A  |    16.05   |     Alexander      |       Mousezeiger Bild Idee und Design       |       15        |
 | 3.B  |    16.05   |     Pascal/Alexander      |       Mousezeiger programmieren       |        45       |
 | 3.C  |    16.05   |     Pascal/Alexander      |       Mousezeiger implementieren       |        25       |
-| 4.A |   16.05    |      Lorenzo/Alexander/Simon     |       Sprachauswahl (Design und Skizze)       |        15       |
+| 4.A  |   16.05    |      Lorenzo/Alexander/Simon     |       Sprachauswahl (Design und Skizze)       |        15       |
 | 4.B  |   16.05    |     Pascal/Lorenzo      |       Sprachauswahl programmieren       |        45       |
 | 4.C  |   16.05    |     Pascal/Lorenzo      |       Sprachauswahl implementieren (erweitern)       |        45 - 60       |
 | 5.A  |   16.05    |     Alexander      |       Anzahl Personen ändern (Idee und Design)     |       15       |
