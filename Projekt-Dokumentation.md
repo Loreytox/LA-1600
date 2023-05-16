@@ -22,7 +22,7 @@ In diesem Projekt erstellen wir eine Webseite auf der Rezepte für verschiedene 
 | 2 |        Kann |   Qualität    | Als User möchte ich die Möglichkeit haben Dark-Mode anzuwählen, damit ich die Webseite auch in der Nacht ansehen kann.
 | 3 |  Kann    |  Qualität  |  Als User möchte ich mit dem Mauszeiger über die gewollte Pizza fahren. Dabei sollten die benutzten Zutaten gezeigt werden, solange der Mauszeiger über die Pizza ist, damit ich weiss, wie die Pizza gemacht ist.  |
 | 4 |  Muss  |  Funktional  |  Als User möchte ich, dass man auch andere Sprachen auswählen kann, damit jeder die Webseite besuchen kann.  |
-| 5 |  Kann  |  Funktional  |  Als User möchte ich die Anzahl Personen ändern können, damit sich die Mengenangaben zu der Anzahl Personen anpasst.    |
+| 5 |  Kann  |  Funktional  |  Als User möchte ich Informationen über die einzelnen Pizzen und die Firma lesen können, damit ich weiss, was ich überhaupt am Kaufen bin, um mehr Erfahrung darüber zu haben.     |
 |  |    |    |      |
 |  |    |    |      |
 |  |    |    |      |
@@ -50,24 +50,25 @@ In diesem Projekt erstellen wir eine Webseite auf der Rezepte für verschiedene 
 
 
 ## 2 Planen
+Geplante Zeit in Minuten.
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
 | 1.A  |   09.05   |     Pascal      |      Menu programmieren (HTML)        |       45       |
 | 1.B  |    09.05   |    Lorenzo/Alexander/Simon       |       Menu Design      |       30        |
-| 1.C  |   09.05   |     Pascal      |      Menu implementieren/anpassen        |       30       |
+| 1.C  |   09.05   |     Pascal      |      Menu implementieren/anpassen        |       15       |
 | 2.A  |   16.05    |     Alexander/Lorenzo/Simon      |      Dark-Mode Design und Skizze        |       25        |
 | 2.B  |    16.05   |     Pascal/Lorenzo      |       Dark-Mode programmieren       |       45        |
-| 2.C  |   16.05    |     Pascal/Lorenzo      |       Dark-Mode implementieren       |       30        |
-| 3.A  |    16.05   |     Alexander      |       Mousezeiger Bild Idee und Design       |       15        |
-| 3.B  |    16.05   |     Pascal/Alexander      |       Mousezeiger programmieren       |        45       |
-| 3.C  |    16.05   |     Pascal/Alexander      |       Mousezeiger implementieren       |        25       |
+| 2.C  |   16.05    |     Pascal/Lorenzo      |       Dark-Mode implementieren       |       15        |
+| 3.A  |    16.05   |     Alexander      |       Bildanimation Bild Idee und Design       |       15        |
+| 3.B  |    16.05   |     Pascal/Alexander      |       Bildanimation programmieren       |        45       |
+| 3.C  |    16.05   |     Pascal/Alexander      |       Bildanimation implementieren       |        25       |
 | 4.A  |   16.05    |      Lorenzo/Alexander/Simon     |       Sprachauswahl (Design und Skizze)       |        15       |
 | 4.B  |   16.05    |     Pascal/Lorenzo      |       Sprachauswahl programmieren       |        45       |
-| 4.C  |   16.05    |     Pascal/Lorenzo      |       Sprachauswahl implementieren (erweitern)       |        45 - 60       |
-| 5.A  |   16.05    |     Alexander      |       Anzahl Personen ändern (Idee und Design)     |       15       |
-| 5.B  |   16.05    |     Pascal/Alexander      |       Anzahl Personen ändern programmieren       |        60       |
-| 5.C  |   16.05    |     Pascal/Alexander      |      Anzahl Personen ändern implementieren, anpassen     |        25       |
+| 4.C  |   16.05    |     Pascal/Lorenzo      |       Sprachauswahl implementieren (erweitern)       |        15 - 30       |
+| 5.A  |   16.05    |     Alexander      |       Informationen (Idee und Design)     |       10       |
+| 5.B  |   16.05    |     Pascal/Alexander      |       Informationen programmieren       |        25       |
+| 5.C  |   16.05    |     Pascal/Alexander      |      Informationen implementieren, anpassen     |        10       |
 
 Total: 15 Arbeitspakete
 
