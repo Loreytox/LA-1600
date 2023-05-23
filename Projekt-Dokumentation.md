@@ -42,7 +42,7 @@ In diesem Projekt erstellen wir eine Webseite auf der Rezepte für verschiedene 
 ![MicrosoftTeams-image](https://user-images.githubusercontent.com/110892495/237048334-93fceb6a-775d-4062-86c9-f0a18128ebb8.png)
 
 
-![Screenshot 2023-05-09 110042](https://user-images.githubusercontent.com/110892495/237048426-75646ebd-69d2-46ba-8805-a56199f1578c.png)
+
 
 
 ## 2 Planen
