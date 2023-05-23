@@ -5,8 +5,8 @@ Lai, Warnebold, Oestrich, Veljkovic
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
 |09.05.2023| 0.0.1 |Wir haben einen ersten Prototyp der Website kreiert.|
-| 16.05.2023      | 0.9.0 | Wir haben den grössten Teil unser User stories und mehr schon implementiert. (Julian Alexander. Warnebold war nicht anwesend) |
-|       | 1.0.0   |                                                              |
+|16.05.2023| 0.9.0 |Wir haben den grössten Teil unserer User Stories und mehr schon implementiert. (Julian Alexander Warnebold war nicht anwesend.)|
+|23.05.2023| 1.0.0 |Wir haben die erste Version unserer Website fertiggestellt.|
 
 ## 1 Informieren
 
@@ -18,22 +18,22 @@ In diesem Projekt erstellen wir eine Webseite auf der Rezepte für verschiedene 
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |        Muss         |   Funktional   | Als User möchte ich ein Menu haben mit Optionen, wie zum Beispiel: Infos, Kontakt etc...
-| 2 |        Kann |   Qualität    | Als User möchte ich die Möglichkeit haben Dark-Mode anzuwählen, damit ich die Webseite auch in der Nacht ansehen kann.
-| 3 |  Kann    |  Qualität  |  Als User möchte ich mit dem Mauszeiger über die gewollte Pizza fahren. Dabei sollten die benutzten Zutaten gezeigt werden, solange der Mauszeiger über die Pizza ist, damit ich weiss, wie die Pizza gemacht ist.  |
-| 4 |  Muss  |  Funktional  |  Als User möchte ich, dass man auch andere Sprachen auswählen kann, damit jeder die Webseite besuchen kann.  |
-| 5 |  Kann  |  Funktional  |  Als User möchte ich Informationen über die einzelnen Pizzen und die Firma lesen können, damit ich weiss, was ich überhaupt am Kaufen bin, um mehr Erfahrung darüber zu haben.     |
-|  |    |    |      |
+| 1 |  Muss  |  Funktional | Als User möchte ich ein Menu haben mit Optionen, wie zum Beispiel: Infos, Kontakt etc...
+| 2 |  Kann  |  Qualität   | Als User möchte ich die Möglichkeit haben Dark-Mode anzuwählen, damit ich die Webseite auch in der Nacht ansehen kann.
+| 3 |  Kann  |  Qualität   |  Als User möchte ich mit dem Mauszeiger über die gewollte Pizza fahren. Dabei sollten die benutzten Zutaten gezeigt werden, solange der Mauszeiger über die Pizza ist, damit ich weiss, wie die Pizza gemacht ist.  |
+| 4 |  Muss  |  Funktional |  Als User möchte ich, dass man auch andere Sprachen auswählen kann, damit jeder die Webseite besuchen kann.  |
+| 5 |  Kann  |  Funktional |  Als User möchte ich Informationen über die einzelnen Pizzen und die Firma lesen können, damit ich weiss, was ich überhaupt am Kaufen bin, um mehr Erfahrung darüber zu haben.  |
+
 
 ### 1.3 Testfälle
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  |  Website geöffnet            |         |    Dropdown Liste sichtbar             |
+| 1.1  |  Website geöffnet            |  Dropdown Liste sichtbar   |
 | 2.1  |  Website geöffnet            |  Dark-Mode auswählen       |    Website wird dunkel               |
-| 3.1  |  Website geöffnet            |  über Pizza fahren       |    Bild von Pizza              |
-| 4.1  |  Website geöffnet            |  Sprache auswählen       |    Andere Sprache              |
-| 5.1  |  Website geöffnet            |  Anzahl Personen      |    Mengenangabe für Anzahl Personen               |
+| 3.1  |  Website geöffnet            |  über Pizza fahren         |    Bild von Pizza                    |
+| 4.1  |  Website geöffnet            |  Sprache auswählen         |    Andere Sprache                    |
+| 5.1  |  Website geöffnet            |  Anzahl Personen           |    Mengenangabe für Anzahl Personen  |
 
 
 ### 1.4 Diagramme
