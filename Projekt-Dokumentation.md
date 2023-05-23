@@ -5,8 +5,8 @@ Lai, Warnebold, Oestrich, Veljkovic
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
 |09.05.2023| 0.0.1 |Wir haben einen ersten Prototyp der Website kreiert.|
-|16.05.2023| 0.9.0 |Wir haben den grössten Teil unserer User Stories und mehr schon implementiert. (Julian Alexander Warnebold war nicht anwesend.)|
-|23.05.2023| 1.0.0 |Wir haben die erste Version unserer Website fertiggestellt.|
+|16.05.2023| 0.9.0 |Wir haben den grössten Teil unserer User Stories und mehr schon implementiert. (Julian Alexander Warnebold war nicht anwesend)|
+|23.05.2023| 1.0.0 |Wir haben die erste Version unserer Website fertiggestellt. (Weil GitHub die Bilder nicht erkennen kann, sind ein paar Features "kaputt")|
 
 ## 1 Informieren
 
