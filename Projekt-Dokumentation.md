@@ -45,6 +45,11 @@ In diesem Projekt erstellen wir eine Webseite auf der Rezepte für verschiedene 
 
 
 
+
+
+![Screenshot 2023-05-23 101228](https://github.com/Loreytox/LA-1600/assets/110892495/379a9a5d-4b26-4166-8231-e6e6af07942e)
+
+
 ## 2 Planen
 Geplante Zeit in Minuten.
 
