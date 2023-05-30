@@ -37,6 +37,8 @@ In diesem Projekt erstellen wir eine Webseite auf der Rezepte für verschiedene 
 | 3.1  |  Website geöffnet            |  über Pizza fahren         |    Bild von Pizza                    |
 | 4.1  |  Website geöffnet            |  Sprache auswählen         |    Andere Sprache                    |
 | 5.1  |  Website geöffnet            |  Anzahl Personen           |    Mengenangabe für Anzahl Personen  |
+| 6.1  |  Website geöffnet            |  flex-box-Ordnung sichtbar |                                      |
+| 7.1  |  Website geöffnet            |  über Pizza hovern         |    Pizza wird farbig
 
 
 ### 1.4 Diagramme
@@ -69,8 +71,13 @@ Geplante Zeit in Minuten.
 | 5.A  |   16.05    |     Alexander      |       Informationen (Idee und Design)     |       10       |
 | 5.B  |   16.05    |     Pascal/Alexander      |       Informationen programmieren       |        25       |
 | 5.C  |   16.05    |     Pascal/Alexander      |      Informationen implementieren, anpassen     |        10       |
-
-Total: 15 Arbeitspakete
+| 6.A  |   30.05    |     Lorenzo/Alexander/Simon    |       flex-box designen        |       10       |
+| 6.B  |   30.05    |     Pascal/Lorenzo        |      flex-box programmieren        |       45       |
+| 6.C  |   30.05    |     Pascal/Alexander      |      flex-box implementieren        |       20       |
+| 7.A  |   06.06    |     Lorenzo/Alexander/Simon    |       Farbfilter designen      |       10       |
+| 7.B  |   06.06    |     Pascal/Lorenzo        |      Farbfilter programmieren       |       45       |
+| 7.C  |   06.06    |     Pascal/Alexander      |      Farbfilter implementieren      |       20       |
+Total: 21 Arbeitspakete
 
 
 ## 3 Entscheiden
