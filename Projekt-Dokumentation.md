@@ -7,6 +7,7 @@ Lai, Warnebold, Oestrich, Veljkovic
 |09.05.2023| 0.0.1 |Wir haben einen ersten Prototyp der Website kreiert.|
 |16.05.2023| 0.9.0 |Wir haben den grössten Teil unserer User Stories und mehr schon implementiert. (Julian Alexander Warnebold war nicht anwesend)|
 |23.05.2023| 1.0.0 |Wir haben die erste Version unserer Website fertiggestellt. (Weil GitHub die Bilder nicht erkennen kann, sind ein paar Features "kaputt")|
+|30.05.2023| 1.0.1 |
 
 ## 1 Informieren
 
@@ -23,6 +24,8 @@ In diesem Projekt erstellen wir eine Webseite auf der Rezepte für verschiedene 
 | 3 |  Kann  |  Qualität   |  Als User möchte ich mit dem Mauszeiger über die gewollte Pizza fahren. Dabei sollten die benutzten Zutaten gezeigt werden, solange der Mauszeiger über die Pizza ist, damit ich weiss, wie die Pizza gemacht ist.  |
 | 4 |  Muss  |  Funktional |  Als User möchte ich, dass man auch andere Sprachen auswählen kann, damit jeder die Webseite besuchen kann.  |
 | 5 |  Kann  |  Funktional |  Als User möchte ich Informationen über die einzelnen Pizzen und die Firma lesen können, damit ich weiss, was ich überhaupt am Kaufen bin, um mehr Erfahrung darüber zu haben.  |
+| 6 |  Kann  |  Qualität   |  Als User möchte ich, dass auf Mobilegeräten die Pizzen mittels flex-box geordnet werden.  |
+| 7 |  Kann  |  Qualität   |  Als User möchte ich, dass die standardmässig verbleichten Pizzen beim Hovern farbig werden.  |
 
 
 ### 1.3 Testfälle
