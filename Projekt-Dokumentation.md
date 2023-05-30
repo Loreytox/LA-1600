@@ -45,7 +45,7 @@ In diesem Projekt erstellen wir eine Webseite auf der Rezepte für verschiedene 
 
 
 
-![LA1600](https://github.com/Loreytox/LA-1600/assets/110893594/81a03e25-2a28-40f5-ba50-35fa46cc93e1)
+![LA1600(2) drawio](https://github.com/Loreytox/LA-1600/assets/110893594/a0426691-258d-4309-8ea0-4f3796426064)
 
 
 
