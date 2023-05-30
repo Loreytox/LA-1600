@@ -41,16 +41,12 @@ In diesem Projekt erstellen wir eine Webseite auf der Rezepte für verschiedene 
 
 ### 1.4 Diagramme
 
-
 ![MicrosoftTeams-image](https://user-images.githubusercontent.com/110892495/237048334-93fceb6a-775d-4062-86c9-f0a18128ebb8.png)
 
 
 
+![LA1600](https://github.com/Loreytox/LA-1600/assets/110893594/81a03e25-2a28-40f5-ba50-35fa46cc93e1)
 
-
-
-
-![Screenshot 2023-05-23 101228](https://github.com/Loreytox/LA-1600/assets/110892495/379a9a5d-4b26-4166-8231-e6e6af07942e)
 
 
 ## 2 Planen
