@@ -8,7 +8,7 @@ Lai, Warnebold, Oestrich, Veljkovic
 |16.05.2023| 0.9.0 |Wir haben den grössten Teil unserer User Stories und mehr schon implementiert. (Julian Alexander Warnebold war nicht anwesend)|
 |23.05.2023| 1.0.0 |Wir haben die erste Version unserer Website fertiggestellt. (Weil GitHub die Bilder nicht erkennen kann, sind ein paar Features "kaputt")|
 |30.05.2023| 1.0.1 |Wir haben einen Teil unserer Zusatzfeatures/Verbesserungen implementiert.|
-|06.06.2023| 1.9.0 |Wir haben den Handy-Mode angepasst und Bugs gefixt.|
+|06.06.2023| 1.9.0 |Wir haben den Handy Mode angepasst und Bugs gefixt.|
 
 ## 1 Informieren
 
@@ -27,6 +27,7 @@ In diesem Projekt erstellen wir eine Webseite auf der Rezepte für verschiedene 
 | 5 |  Kann  |  Funktional |  Als User möchte ich Informationen über die einzelnen Pizzen und die Firma lesen können, damit ich weiss, was ich überhaupt am Kaufen bin, um mehr Erfahrung darüber zu haben.  |
 | 6 |  Kann  |  Qualität   |  Als User möchte ich, dass auf Mobilegeräten die Pizzen mittels flex-box geordnet werden.  |
 | 7 |  Kann  |  Qualität   |  Als User möchte ich, dass die standardmässig verbleichten Pizzen beim Hovern farbig werden.  |
+| 8 |  Muss  |  Qualität   |  Als User möchte ich, dass ich, wenn ich die Website auf dem Handy ansehen möchte, die Seite ansprechend gestaltet ist.  |
 
 
 ### 1.3 Testfälle
@@ -39,7 +40,8 @@ In diesem Projekt erstellen wir eine Webseite auf der Rezepte für verschiedene 
 | 4.1  |  Website geöffnet            |  Sprache auswählen         |    andere Sprache                    |
 | 5.1  |  Website geöffnet            |  Anzahl Personen           |    Mengenangabe für Anzahl Personen  |
 | 6.1  |  Website geöffnet            |  flex-box-Ordnung sichtbar |                                      |
-| 7.1  |  Website geöffnet            |  über Pizza hovern         |    Pizza wird farbig
+| 7.1  |  Website geöffnet            |  über Pizza hovern         |    Pizza wird farbig                 |
+| 8.1  |  Website auf Handy geöffnet  |  Website übersichtlich wie auf Desktop | 
 
 
 ### 1.4 Diagramme
@@ -57,28 +59,31 @@ Geplante Zeit in Minuten.
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |   09.05   |     Pascal      |      Menu programmieren (HTML)        |       45       |
-| 1.B  |    09.05   |    Lorenzo/Alexander/Simon       |       Menu Design      |       30        |
-| 1.C  |   09.05   |     Pascal      |      Menu implementieren/anpassen        |       15       |
+| 1.A  |   09.05    |     Pascal      |      Menu programmieren (HTML)        |       45       |
+| 1.B  |   09.05    |    Lorenzo/Alexander/Simon       |       Menu Design      |       30        |
+| 1.C  |   09.05    |     Pascal      |      Menu implementieren/anpassen        |       15       |
 | 2.A  |   16.05    |     Alexander/Lorenzo/Simon      |      Dark-Mode Design und Skizze        |       25        |
-| 2.B  |    16.05   |     Pascal/Lorenzo      |       Dark-Mode programmieren       |       45        |
+| 2.B  |   16.05    |     Pascal/Lorenzo      |       Dark-Mode programmieren       |       45        |
 | 2.C  |   16.05    |     Pascal/Lorenzo      |       Dark-Mode implementieren       |       15        |
-| 3.A  |    16.05   |     Alexander      |       Bildanimation Idee und Design       |       15        |
-| 3.B  |    16.05   |     Pascal/Alexander      |       Bildanimation programmieren       |        45       |
-| 3.C  |    16.05   |     Pascal/Alexander      |       Bildanimation implementieren       |        25       |
-| 4.A  |   16.05    |      Lorenzo/Alexander/Simon     |       Sprachauswahl (Design und Skizze)       |        15       |
+| 3.A  |   16.05    |     Alexander      |       Bildanimation Idee und Design       |       15        |
+| 3.B  |   16.05    |     Pascal/Alexander      |       Bildanimation programmieren       |        45       |
+| 3.C  |   16.05    |     Pascal/Alexander      |       Bildanimation implementieren       |        25       |
+| 4.A  |   16.05    |     Lorenzo/Alexander/Simon     |       Sprachauswahl (Design und Skizze)       |        15       |
 | 4.B  |   16.05    |     Pascal/Lorenzo      |       Sprachauswahl programmieren       |        45       |
 | 4.C  |   16.05    |     Pascal/Lorenzo      |       Sprachauswahl implementieren (erweitern)       |        15 - 30       |
 | 5.A  |   16.05    |     Alexander      |       Informationen (Idee und Design)     |       10       |
 | 5.B  |   16.05    |     Pascal/Alexander      |       Informationen programmieren       |        25       |
 | 5.C  |   16.05    |     Pascal/Alexander      |      Informationen implementieren, anpassen     |        10       |
 | 6.A  |   30.05    |     Lorenzo/Alexander/Simon    |       flex-box designen        |       10       |
-| 6.B  |   30.05    |     Pascal/Lorenzo        |      flex-box programmieren        |       45       |
+| 6.B  |   30.05    |     Pascal/Lorenzo        |      flex-box programmieren         |       45       |
 | 6.C  |   30.05    |     Pascal/Alexander      |      flex-box implementieren        |       20       |
 | 7.A  |   06.06    |     Lorenzo/Alexander/Simon    |       Farbfilter designen      |       10       |
 | 7.B  |   06.06    |     Pascal/Lorenzo        |      Farbfilter programmieren       |       45       |
 | 7.C  |   06.06    |     Pascal/Alexander      |      Farbfilter implementieren      |       20       |
-Total: 21 Arbeitspakete
+| 8.A  |   06.06    |     Lorenzo/Alexander/Simon    |       Handy Mode designen      |       10       |
+| 8.B  |   06.06    |     Pascal/Lorenzo        |      Handy Mode programmieren       |       45       |
+| 8.C  |   06.06    |     Pascal/Alexander      |      Handy Mode implementieren      |       20       |
+Total: 24 Arbeitspakete
 
 
 ## 3 Entscheiden
