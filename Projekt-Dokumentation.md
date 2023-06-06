@@ -28,20 +28,22 @@ In diesem Projekt erstellen wir eine Webseite auf der Rezepte für verschiedene 
 | 6 |  Kann  |  Qualität   |  Als User möchte ich, dass auf Mobilegeräten die Pizzen mittels flex-box geordnet werden.  |
 | 7 |  Kann  |  Qualität   |  Als User möchte ich, dass die standardmässig verbleichten Pizzen beim Hovern farbig werden.  |
 | 8 |  Muss  |  Qualität   |  Als User möchte ich, dass ich, wenn ich die Website auf dem Handy ansehen möchte, die Seite ansprechend gestaltet ist.  |
+| 9 |  Kann  |  Funktional |  Als User möchte ich, dass wenn ich im Header auf eine bestimmte Kategorie klicke, ich direkt zu der entsprechenden Kategorie geschickt werde. (Website scrollt automatisch runter)
 
 
 ### 1.3 Testfälle
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  |  Website geöffnet            |  Dropdown Liste sichtbar   |
+| 1.1  |  Website geöffnet            |  Dropdown Liste sichtbar   |                                      |
 | 2.1  |  Website geöffnet            |  Dark-Mode auswählen       |    Website wird dunkel               |
 | 3.1  |  Website geöffnet            |  über Pizza fahren         |    Bild von Pizza                    |
 | 4.1  |  Website geöffnet            |  Sprache auswählen         |    andere Sprache                    |
 | 5.1  |  Website geöffnet            |  Anzahl Personen           |    Mengenangabe für Anzahl Personen  |
 | 6.1  |  Website geöffnet            |  flex-box-Ordnung sichtbar |                                      |
 | 7.1  |  Website geöffnet            |  über Pizza hovern         |    Pizza wird farbig                 |
-| 8.1  |  Website auf Handy geöffnet  |  Website übersichtlich wie auf Desktop | 
+| 8.1  |  Website auf Handy geöffnet  |  Website übersichtlich wie auf Desktop |                          |
+| 9.1  |  Website geöffnet            |  Kategorie auswählen       |    Man landet automatisch bei der ausgewählten Kategorie  |    
 
 
 ### 1.4 Diagramme
@@ -83,7 +85,10 @@ Geplante Zeit in Minuten.
 | 8.A  |   06.06    |     Lorenzo/Alexander/Simon    |       Handy Mode designen      |       10       |
 | 8.B  |   06.06    |     Pascal/Lorenzo        |      Handy Mode programmieren       |       45       |
 | 8.C  |   06.06    |     Pascal/Alexander      |      Handy Mode implementieren      |       20       |
-Total: 24 Arbeitspakete
+| 9.A  |   06.06    |     Lorenzo/Alexander/Simon    |       automatisches Scrollen designen      |       10       |
+| 9.B  |   06.06    |     Pascal/Lorenzo        |      automatisches Scrollen programmieren    |      45      |
+| 9.C  |   06.06    |     Pascal/Alexander      |      automatisches Scrollen implementieren   |      20      |
+Total: 27 Arbeitspakete
 
 
 ## 3 Entscheiden
