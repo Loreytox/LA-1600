@@ -24,9 +24,13 @@ body.dark-mode {
     display: inline-block;
     cursor: pointer;
     padding: 5px 10px;
-    width: 100px;
+    width: 90px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     background-color: #e4e4e4;
-    border-radius: 20px;
+    border-radius: 25px;
+    
 }
 
 /* Change background color on checkbox toggle */
@@ -214,30 +218,34 @@ overflow-wrap: break-word
         flex-shrink: 0;
       }
 
-
-
       .dreamContainer {
-  display: flex;
-  justify-content: center; 
-  align-items: center;
-  position: relative;
-  width: 100%;
-  height: 100vh; 
-}
-
-.dreamage {
-  max-width: 100%;
-  max-height: 100%;
-  width: auto;
-  height: auto;
-}
-
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        position: relative;
+        max-width: 100%;
+        min-height: 100vh; 
+      }
+      
+      .imageWrapper {
+        position: relative;
+        max-width: 100%;
+        min-height: 100%;
+      }
+      
+      .dreamage {
+        display: block;
+        max-width: 550px;
+        min-height: 500px;
+      }
+      
       .overlay {
         position: absolute;
         bottom: 0;
         background: rgba(0, 0, 0, 0.5);
         color: #f1f1f1;
-        width: 100%;
+        width: 92.7%;
+        height: 25px;
         transition: .5s ease;
         opacity: 0;
         color: white;
@@ -246,12 +254,11 @@ overflow-wrap: break-word
         text-align: center;
         font-family: "Roboto", sans-serif;
       }
-
-      .dreamContainer:hover .overlay {
+      
+      .imageWrapper:hover .overlay {
         opacity: 1;
       }
-
-
+      
 
       #google-map {
         width: break-word;
