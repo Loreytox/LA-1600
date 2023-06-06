@@ -8,6 +8,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mogra&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
@@ -15,280 +16,6 @@
     <title>Pizza Online Shop</title>
 
     <style>
-
-:root {
-
- --background-light: #ffffff; /* Default background color */
-
---background-dark: #333; /* Dark mode background color */
- }
-
-body {
-
-background-color: var(--background-light);
-
-transition: background-color 0.3s ease;
-}
-
-
-
-
-/* Dark mode styles */
-
-body.dark-mode {
-
-background-color: var(--background-dark);
-
-}
-
-
-
-
-/* Hide the checkbox visually */
-
-#dark-mode {
-
-position: absolute;
-
-left: -9999px;
-
-}
-
-
-
-
-/* Style the label as a toggle switch */
-
-#dark-mode + label {
-
-display: inline-block;
-
-cursor: pointer;
-
-padding: 5px 10px;
-
-width: 100px;
-
-background-color: #e4e4e4;
-
-border-radius: 20px;
-
-}
-
-
-
-
-/* Change background color on checkbox toggle */
-
-#dark-mode:checked + label {
-
-background-color: #000000;
-color: #ffffff;
-}
-
-
-
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-
-      body {
-        font-family: "Roboto", sans-serif;
-        color: #333;
-        line-height: 1.6;
-        display: flex;
-        flex-direction: column;
-        min-height: 100vh;
-        background-color: whitesmoke; 
-      }
-
-      a {
-        text-decoration: none;
-        color: inherit;
-      }
-
-      header {
-        background-color: #ff6347;
-        padding: 2rem 0;
-        color: white;
-        text-align: center;
-        font-size: 2rem;
-      }
-
-      .under-header {
-        background-color: black;
-        padding: 1rem;
-        color: white;
-        text-align: center;
-        font-size: 25px;
-      }
-      .header-container{
-        text-align: center;
-        margin-right: 30px;
-        margin-left: 30px;
-        background-color: whitesmoke;
-      }
-      .infoBeauty{
-        font-family: 'Mogra', cursive;
-        font-size: 20px;
-      }
-      .kontaktbeauty{
-        padding: 15px;
-        background: #fff;
-        color: #333;
-        margin-bottom: 10px;
-        border-radius: 5px;
-      }
-      .kontaktbeauty h2{
-        margin-bottom: 10px;
-      }
-      .kontaktbeauty p {
-        margin-bottom: 15px;
-      }
-      .imgAnfhart{
-        margin-top: 20px
-      }
-
-      nav {
-        display: flex;
-        justify-content: center;
-        background-color: #333;
-        padding: 1rem;
-        color: white;
-      }
-
-      nav a {
-        margin: 0 1rem;
-        transition: color 0.3s;
-      }
-
-      nav a:hover {
-        color: #ff6347;
-      }
-
-      .Pizzas-Container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        padding: 2rem;
-      }
-
-      .pizza-item {
-        flex-basis: 20%;
-        margin: 1rem;
-        background: #fff;
-        box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
-        border-radius: 10px;
-        text-align: center;
-        overflow: hidden;
-        transition: transform 0.3s;
-        height: 390px;
-      }
-
-      .pizza-item:hover {
-        transform: scale(1.03);
-      }
-
-      .pizza-item img {
-        width: 100%;
-        height: 200px;
-        object-fit: cover;
-      }
-
-      .pizza-item h2 {
-        margin: 1rem;
-        font-size: 1.25rem;
-      }
-
-      .pizza-item button {
-        background-color: #ff6347;
-        border: none;
-        color: white;
-        padding: 10px 24px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 10px;
-        cursor: pointer;
-        transition: background-color 0.3s;
-      }
-
-      .pizza-item button:hover {
-        background-color: #333;
-      }
-
-      .pizza-info {
-        display: none;
-        padding: 10px;
-        font-size: 0.875rem;
-        background-color: rgba(0, 0, 0, 0.75);
-        color: white;
-      }
-
-      .pizza-item:hover .pizza-info {
-        display: block;
-      }
-
-      footer {
-        background-color: #333;
-        color: white;
-        text-align: center;
-        padding: 2rem 0;
-        margin-top: 2rem;
-      }
-
-      footer p {
-        font-size: 0.875rem;
-      }
-
-      .mainDiv {
-        display: flex;
-        flex-direction: column;
-        min-height: 100vh;
-      }
-
-      main {
-        flex: 1 0 auto;
-      }
-
-      footer {
-        flex-shrink: 0;
-      }
-      .dreamContainer {
-        display: flex;
-        position: relative;
-        width: 50%;
-        max-width: 300px;
-      }
-
-      .dreamage {
-        width: 100%;
-        height: auto;
-      }
-
-      .overlay {
-        position: absolute;
-        bottom: 0;
-        background: rgba(0, 0, 0, 0.5);
-        color: #f1f1f1;
-        width: 100%;
-        transition: .5s ease;
-        opacity: 0;
-        color: white;
-        font-size: 20px;
-        padding: 20px;
-        text-align: center;
-        font-family: "Roboto", sans-serif;
-      }
-
-      .dreamContainer:hover .overlay {
-        opacity: 1;
-      }
-
-      
 
     </style>
 
@@ -301,7 +28,6 @@ var body = document.body;
 body.classList.toggle("dark-mode");
   
 }
-  
   </script>
 
   </head>
@@ -310,12 +36,12 @@ body.classList.toggle("dark-mode");
     
     <div class="mainDiv">
       <header>
-        <h1>Willkommen auf dem PizzaOnlineShop</h1>
+        <h1>Willkommen auf dem Pizza&nbsp;Online&nbsp;Shop</h1>
       </header>
       <nav>
-        <a href="#Pizzas-Container">Pizzen</a>
-        <a href="#Kontakt">Kontakt</a>
-        <a href="#info-header">Infos</a>
+        <a href="#pizzas">Pizzen</a>
+        <a href="#infos">Infos</a>
+        <a href="#kontakt">Kontakt</a>
       </nav>
 
       <input id="dark-mode" type="checkbox">
@@ -323,6 +49,7 @@ body.classList.toggle("dark-mode");
       <label for="dark-mode" onclick="toggleDarkMode()">Dark mode</label>
 
       <main>
+        <div id="pizzas">
         <div class="Pizzas-Container">
           <div class="pizza-item">
             <div class="pizza-content">
@@ -406,7 +133,9 @@ body.classList.toggle("dark-mode");
             </div>
           </div>
         </div>
+      </div>
 
+      <div id="infos">
         <div class="header-container">
 
         <header class="under-header">
@@ -421,7 +150,7 @@ body.classList.toggle("dark-mode");
             <br>
             <h2>Unsere Marke</h2>
             <p>
-              Unsere Marke heisst Pizza Italia. Wir erhielten das Recht, die Marke eines berühmten italienischen Pizzabäckers weiterzuverarbeiten und unter dieser Marke unsere Firma zu führen. Seitdem wir unsere Firma nach dieser Marke führen, wurde sie auch in der Schweiz populär.  Dadurch sind wir auf dem Markt auf gutem Kurs.
+              Unsere Marke heisst Pizza Italia. Wir erhielten das Recht, die Marke eines berühmten italienischen Pizzabäckers weiterzuverarbeiten und unter dieser Marke unsere Firma zu führen. Seitdem wir unsere Firma nach dieser Marke führen, wurde sie auch in der Schweiz populär.  Dadurch sind wir auf dem Markt auf gutem Kurs.
             </p>
             <br>
             <h2>Über uns</h2>
@@ -433,13 +162,14 @@ body.classList.toggle("dark-mode");
                 <h3>Geschäftsführer</h3>
                 
                 <div class="dreamContainer">
-                  <img src="Dreamboss.jpg" alt="Dreamybull" class="dreamage">
+                  <img src="Dreamyboss.jpg" alt="Dreamybull" class="dreamage">
                   <div class="overlay">Dreamybull</div>
                 </div>
 
             </div>
       </div>
-
+    </div>
+    <div id="kontakt">
       <div class="header-container">
 
         <header class="under-header">
@@ -470,17 +200,14 @@ body.classList.toggle("dark-mode");
         <div class="imgAnfhart">
           <h2>Anfahrt</h2>
         
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19160358.219141345!2d-7.473983394593752!3d40.9146772020914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6718e9e98b22d%3A0xb8eb7b03342f424!2sWarung%20Ambatuk%C3%A0m!5e0!3m2!1sde!2sch!4v1684827844116!5m2!1sde!2sch" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19160358.219141345!2d-7.473983394593752!3d40.9146772020914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6718e9e98b22d%3A0xb8eb7b03342f424!2sWarung%20Ambatuk%C3%A0m!5e0!3m2!1sde!2sch!4v1684827844116!5m2!1sde!2sch" id="google-map" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>      
+
         </div>
-
-
-        </div>
-
-
 
         </div>
       </div>
-        
+    </div>
       </main>
 
       <footer>
