@@ -9,7 +9,7 @@ Lai, Warnebold, Oestrich, Veljkovic
 |23.05.2023| 1.0.0 |Wir haben die erste Version unserer Website fertiggestellt. (Weil GitHub die Bilder nicht erkennen kann, sind ein paar Features "kaputt")|
 |30.05.2023| 1.0.1 |Wir haben einen Teil unserer Zusatzfeatures/Verbesserungen implementiert.|
 |06.06.2023| 1.9.0 |Wir haben den Handy Mode angepasst und Bugs gefixt.|
-|13.06.2023| 2.0.0 |Wir haben unsere Website vollständig beendet und unsere Präsentation vorbereitet.|
+|13.06.2023| 2.0.0 |Wir haben unsere Website vollständig beendet und unsere Präsentation vorbereitet. Bezüglich Probleme haben wir den Dark-Mode und den Handy Mode verbessert und allfällige Störungen noch behoben.|
 
 ## 1 Informieren
 
@@ -30,7 +30,7 @@ In diesem Projekt erstellen wir eine Webseite auf der Rezepte für verschiedene 
 | 7 |  Muss  |  Qualität   |  Als User möchte ich, dass die standardmässig verbleichten Pizzen beim Hovern farbig werden.  |
 | 8 |  Muss  |  Qualität   |  Als User möchte ich, dass ich, wenn ich die Website auf dem Handy ansehen möchte, die Seite ansprechend gestaltet ist.  |
 | 9 |  Kann  |  Funktional |  Als User möchte ich, dass wenn ich im Header auf eine bestimmte Kategorie klicke, ich direkt zu der entsprechenden Kategorie geschickt werde. (Website scrollt automatisch runter)
-
+| 10 | Muss  |  Funktional |  Als User möchte ich, dass wenn der Filter aktiv ist, nur spezielle Pizzen gezeigt werden.  |
 
 ### 1.3 Testfälle
 
@@ -44,7 +44,8 @@ In diesem Projekt erstellen wir eine Webseite auf der Rezepte für verschiedene 
 | 6.1  |  Website geöffnet            |  flex-box-Ordnung sichtbar |                                      |
 | 7.1  |  Website geöffnet            |  über Pizza hovern         |    Pizza wird farbig                 |
 | 8.1  |  Website auf Handy geöffnet  |  Website übersichtlich wie auf Desktop |                          |
-| 9.1  |  Website geöffnet            |  Kategorie auswählen       |    Man landet automatisch bei der ausgewählten Kategorie  |    
+| 9.1  |  Website geöffnet            |  Kategorie auswählen       |    Man landet automatisch bei der ausgewählten Kategorie  |
+| 10.1 |  Website geöffnet            |  Filter aktivieren         |    nur spezielle Pizzen angezeigt    |
 
 
 ### 1.4 Diagramme
@@ -89,7 +90,10 @@ Geplante Zeit in Minuten.
 | 9.A  |   06.06    |     Lorenzo/Alexander/Simon    |       automatisches Scrollen designen      |       10       |
 | 9.B  |   06.06    |     Pascal/Lorenzo        |      automatisches Scrollen programmieren    |      45      |
 | 9.C  |   06.06    |     Pascal/Alexander      |      automatisches Scrollen implementieren   |      20      |
-Total: 27 Arbeitspakete
+| 10.A |   13.06    |     Lorenzo/Alexander/Simon    |       Spezialfilter designen               |       10       |
+| 10.B |   13.06    |     Pascal/Lorenzo        |      Spezialfilter programmieren             |      45      |
+| 10.C |   13.06    |     Pascal/Alexander      |      Spezialfilter implementieren            |      20      |
+Total: 30 Arbeitspakete
 
 
 ## 3 Entscheiden
@@ -125,6 +129,9 @@ Wir machen es mit HTML und CSS.
 | 9.A  | 06.06 | Lorenzo, ALexander, Simon | 10 Min             | 10 Min              |
 | 9.B  | 06.06 | Pascal, Lorenzo   | 45 Min               | 45 Min              |
 | 9.C  | 06.06 | Pascal, Alexander | 20 Min               | 20 Min              |
+| 10.A | 13.06 | Lorenzo, Alexander, Simon | 10 Min             | 20 Min              |
+| 10.B | 13.06 | Pascal, Lorenzo   | 45 Min               | 30 Min              | 
+| 10.C | 13.06 | Pascal, Alexander | 20 Min               | 20 Min              |
 
 *Arbeitspaket 4 haben wir nicht gemacht.
 
@@ -144,8 +151,9 @@ Wir machen es mit HTML und CSS.
 | 7.1  | 13.06      | OK         | Simon       |
 | 8.1  | 13.06      | OK         | Simon       |
 | 9.1  | 13.06      | OK         | Simon       |
+| 10.1 | 13.06      | OK         | Simon       |
 
-✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
+
 
 ### 5.2 Exploratives Testen
 
