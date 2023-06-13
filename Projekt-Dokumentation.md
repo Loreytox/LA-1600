@@ -9,6 +9,7 @@ Lai, Warnebold, Oestrich, Veljkovic
 |23.05.2023| 1.0.0 |Wir haben die erste Version unserer Website fertiggestellt. (Weil GitHub die Bilder nicht erkennen kann, sind ein paar Features "kaputt")|
 |30.05.2023| 1.0.1 |Wir haben einen Teil unserer Zusatzfeatures/Verbesserungen implementiert.|
 |06.06.2023| 1.9.0 |Wir haben den Handy Mode angepasst und Bugs gefixt.|
+|13.06.2023| 2.0.0 |Wir haben unsere Website vollständig beendet und unsere Präsentation vorbereitet.|
 
 ## 1 Informieren
 
@@ -21,7 +22,7 @@ In diesem Projekt erstellen wir eine Webseite auf der Rezepte für verschiedene 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
 | 1 |  Muss  |  Funktional | Als User möchte ich ein Menu haben mit Optionen, z.B. Infos, Kontakt etc...
-| 2 |  Kann  |  Qualität   | Als User möchte ich die Möglichkeit haben einen Dark-Mode anzuwählen, damit ich die Webseite auch in der Nacht ansehen kann.
+| 2 |  Kann  |  Qualität   | Als User möchte ich die Möglichkeit haben einen Dark-Mode anzuwählen, damit ich die Website auch in der Nacht ansehen kann.
 | 3 |  Kann  |  Qualität   |  Als User möchte ich mit dem Mauszeiger über die gewollte Pizza fahren. Dabei sollten die benutzten Zutaten gezeigt werden, solange der Mauszeiger über die Pizza ist, damit ich weiss, wie die Pizza gemacht ist.  |
 | 4 |  Muss  |  Funktional |  Als User möchte ich, dass man auch andere Sprachen auswählen kann, damit jeder die Webseite besuchen kann.  |
 | 5 |  Kann  |  Funktional |  Als User möchte ich Informationen über die einzelnen Pizzen und die Firma lesen können, damit ich weiss, was ich überhaupt am Kaufen bin, um mehr Erfahrung darüber zu haben.  |
@@ -72,8 +73,8 @@ Geplante Zeit in Minuten.
 | 3.C  |   16.05    |     Pascal/Alexander      |       Bildanimation implementieren       |        25       |
 | 4.A  |   16.05    |     Lorenzo/Alexander/Simon     |       Sprachauswahl (Design und Skizze)       |        15       |
 | 4.B  |   16.05    |     Pascal/Lorenzo      |       Sprachauswahl programmieren       |        45       |
-| 4.C  |   16.05    |     Pascal/Lorenzo      |       Sprachauswahl implementieren (erweitern)       |        15 - 30       |
-| 5.A  |   16.05    |     Alexander      |       Informationen (Idee und Design)     |       10       |
+| 4.C  |   16.05    |     Pascal/Lorenzo      |       Sprachauswahl implementieren (erweitern)       |       30       |
+| 5.A  |   16.05    |     Simon      |       Informationen (Idee und Design)     |       10       |
 | 5.B  |   16.05    |     Pascal/Alexander      |       Informationen programmieren       |        25       |
 | 5.C  |   16.05    |     Pascal/Alexander      |      Informationen implementieren, anpassen     |        10       |
 | 6.A  |   30.05    |     Lorenzo/Alexander/Simon    |       flex-box designen        |       10       |
@@ -100,10 +101,33 @@ Wir machen es mit HTML und CSS.
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  | 09.05.2023      |   Lai        |     30min          |    20min               |
-| ...  |       |           |               |                   |
+| 1.A  | 09.05 | Pascal    | 45 Min        | 60 Min             |
+| 1.B  | 09.05 | Lorenzo, Alexander, Simon | 30 Min             | 30 Min             |
+| 1.C  | 09.05 | Pascal    | 15 Min        | 20 Min             |
+| 2.A  | 16.05 | Alexander, Lorenzo, Simon | 25 Min             | 25 Min             |
+| 2.B  | 16.05 | Pascal, Lorenzo   | 45 Min               | 40 Min              |
+| 2.C  | 16.05 | Pascal, Lorenzo   | 15 Min               | 30 Min              |
+| 3.A  | 16.05 | Alexander | 15 Min        | 15 Min             |
+| 3.B  | 16.05 | Pascal, Alexander | 45 Min               | 75 Min              |
+| 3.C  | 16.05 | Pascal, Alexander | 25 Min               | 30 Min              |
+| 5.A  | 16.05 | Simon     | 10 Min        | 20 Min             |
+| 5.B  | 16.05 | Pascal, Alexander | 25 Min               | 15 Min              |
+| 5.C  | 16.05 | Pascal, Alexander | 10 Min               | 10 Min              |
+| 6.A  | 30.05 | Lorenzo, Alexander, Simon | 10 Min             | 30 Min              |
+| 6.B  | 30.05 | Pascal, Lorenzo   | 45 Min               | 45 Min              |
+| 6.C  | 30.05 | Pascal, Alexander | 20 Min               | 30 Min              |
+| 7.A  | 06.06 | Lorenzo, Alexander, Simon | 10 Min             | 20 Min              |
+| 7.B  | 06.06 | Pascal, Lorenzo   | 45 Min               | 30 Min              |
+| 7.C  | 06.06 | Pascal, Alexander | 20 Min               | 20 Min              |
+| 8.A  | 06.06 | Lorenzo, Alexander, Simon | 10 Min             | 10 Min              |
+| 8.B  | 06.06 | Pascal, Lorenzo   | 45 Min               | 120 Min             |
+| 8.C  | 06.06 | Pascal, Alexander | 20 Min               | 40 Min              |
+| 9.A  | 06.06 | Lorenzo, ALexander, Simon | 10 Min             | 10 Min              |
+| 9.B  | 06.06 | Pascal, Lorenzo   | 45 Min               | 45 Min              |
+| 9.C  | 06.06 | Pascal, Alexander | 20 Min               | 20 Min              |
 
-✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
+*Arbeitspaket 4 haben wir nicht gemacht.
+
 
 ## 5 Kontrollieren
 
@@ -111,8 +135,15 @@ Wir machen es mit HTML und CSS.
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
+| 1.1  | 13.06      | OK         | Simon       |
+| 2.1  | 13.06      | OK         | Simon       |
+| 3.1  | 13.06      | OK         | Simon       |
+| 4.1  | 13.06      | NOK        | Simon       |
+| 5.1  | 13.06      | OK         | Simon       |
+| 6.1  | 13.06      | OK         | Simon       |
+| 7.1  | 13.06      | OK         | Simon       |
+| 8.1  | 13.06      | OK         | Simon       |
+| 9.1  | 13.06      | OK         | Simon       |
 
 ✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
 
