@@ -8,8 +8,8 @@
 }    
 
 :root {
-   --background-light: #ffffff; 
-   --background-dark: #333; 
+   --background-light: #ffffff; /* Default background color */
+   --background-dark: #333; /* Dark mode background color */
 }
 
 body {
@@ -17,6 +17,7 @@ body {
     transition: background-color 0.3s ease;
 }
 
+/* Dark mode styles */
 body.dark-mode {
     background-color: var(--background-dark);
 }
@@ -31,11 +32,13 @@ body.dark-mode {
   color: #ffffff;
 }
 
+/* Hide the checkbox visually */
 #dark-mode {
     position: absolute;
     left: -9999px;
 }
 
+/* Style the label as a toggle switch */
 #dark-mode + label {
     display: inline-block;
     cursor: pointer;
@@ -49,10 +52,13 @@ body.dark-mode {
     
 }
 
+/* Change background color on checkbox toggle */
 #dark-mode:checked + label {
     background-color: #000000;
     color: #ffffff;
 }
+
+
 
 * {
     margin: 0;
