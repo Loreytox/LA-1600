@@ -26,8 +26,8 @@ In diesem Projekt erstellen wir eine Webseite auf der Rezepte für verschiedene 
 | 3 |  Kann  |  Qualität   |  Als User möchte ich mit dem Mauszeiger über die gewollte Pizza fahren. Dabei sollten die benutzten Zutaten gezeigt werden, solange der Mauszeiger über die Pizza ist, damit ich weiss, wie die Pizza gemacht ist.  |
 | 4 |  Muss  |  Funktional |  Als User möchte ich, dass man auch andere Sprachen auswählen kann, damit jeder die Webseite besuchen kann.  |
 | 5 |  Kann  |  Funktional |  Als User möchte ich Informationen über die einzelnen Pizzen und die Firma lesen können, damit ich weiss, was ich überhaupt am Kaufen bin, um mehr Erfahrung darüber zu haben.  |
-| 6 |  Kann  |  Qualität   |  Als User möchte ich, dass auf Mobilegeräten die Pizzen mittels flex-box geordnet werden.  |
-| 7 |  Kann  |  Qualität   |  Als User möchte ich, dass die standardmässig verbleichten Pizzen beim Hovern farbig werden.  |
+| 6 |  Muss  |  Qualität   |  Als User möchte ich, dass auf Mobilegeräten die Pizzen mittels flex-box geordnet werden.  |
+| 7 |  Muss  |  Qualität   |  Als User möchte ich, dass die standardmässig verbleichten Pizzen beim Hovern farbig werden.  |
 | 8 |  Muss  |  Qualität   |  Als User möchte ich, dass ich, wenn ich die Website auf dem Handy ansehen möchte, die Seite ansprechend gestaltet ist.  |
 | 9 |  Kann  |  Funktional |  Als User möchte ich, dass wenn ich im Header auf eine bestimmte Kategorie klicke, ich direkt zu der entsprechenden Kategorie geschickt werde. (Website scrollt automatisch runter)
 
