@@ -1,6 +1,15 @@
+.pizza-item img {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.pizza-item:hover img {
+  filter: grayscale(0%);
+}    
+
 :root {
-   --background-light: #ffffff; /* Default background color */
-   --background-dark: #333; /* Dark mode background color */
+   --background-light: #ffffff; 
+   --background-dark: #333; 
 }
 
 body {
@@ -8,18 +17,25 @@ body {
     transition: background-color 0.3s ease;
 }
 
-/* Dark mode styles */
 body.dark-mode {
     background-color: var(--background-dark);
 }
 
-/* Hide the checkbox visually */
+.dark-mode .infoBeauty {
+  background-color: #333;
+  color: #ffffff; 
+}
+
+.dark-mode .kontaktbeauty {
+  background-color: #333;
+  color: #ffffff;
+}
+
 #dark-mode {
     position: absolute;
     left: -9999px;
 }
 
-/* Style the label as a toggle switch */
 #dark-mode + label {
     display: inline-block;
     cursor: pointer;
@@ -33,13 +49,10 @@ body.dark-mode {
     
 }
 
-/* Change background color on checkbox toggle */
 #dark-mode:checked + label {
     background-color: #000000;
     color: #ffffff;
 }
-
-
 
 * {
     margin: 0;
@@ -177,7 +190,7 @@ overflow-wrap: break-word
       }
 
       .pizza-item button:hover {
-        background-color: #333;
+        background-color: #972f2f;
       }
 
       .pizza-info {
@@ -224,7 +237,7 @@ overflow-wrap: break-word
         align-items: center;
         position: relative;
         max-width: 100%;
-        min-height: 100vh; 
+        min-height: 60vh; 
       }
       
       .imageWrapper {
@@ -234,10 +247,15 @@ overflow-wrap: break-word
       }
       
       .dreamage {
+        width: break-word;
         display: block;
-        max-width: 500px;
-        min-height: 450px;
+        min-width: none;
+        max-width: 100%;
+        min-width: 100%;
+        max-height: 375px;
+        min-height: 200px;
         margin-top: -25px;
+        border: 0;
       }
       
       .overlay {
@@ -245,7 +263,7 @@ overflow-wrap: break-word
         bottom: 0;
         background: rgba(0, 0, 0, 0.5);
         color: #f1f1f1;
-        width: 92%;
+        width: 89.3%;
         height: 25px;
         transition: .5s ease;
         opacity: 0;
