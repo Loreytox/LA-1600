@@ -1,3 +1,10 @@
+.pizza-item {
+  display: block;
+}
+#filterAmbatukam:checked ~ .mainDiv .pizza-item:not(.ambatukam) {
+  display: none;
+}
+
 .pizza-item img {
   filter: grayscale(100%);
   transition: filter 0.3s ease;
