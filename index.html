@@ -21,10 +21,8 @@
 
 <script>
 
-function toggleDarkMode() {
-  
+function toggleDarkMode() { 
 var body = document.body;
-  
 body.classList.toggle("dark-mode");
   
 }
@@ -33,7 +31,13 @@ body.classList.toggle("dark-mode");
   </head>
 
   <body>
-    
+
+    <input type="radio" name="filter" id="filterAll" checked>
+          <label for="filterAll">Alle Pizzen</label>
+  
+          <input type="radio" name="filter" id="filterAmbatukam">
+          <label for="filterAmbatukam">Nur Ambatukam</label>
+
     <div class="mainDiv">
       <header>
         <h1>Willkommen auf dem Pizza&nbsp;Online&nbsp;Shop</h1>
@@ -109,7 +113,7 @@ body.classList.toggle("dark-mode");
             </div>
           </div>
 
-          <div class="pizza-item">
+          <div class="pizza-item ambatukam">
             <img src="Ambatukam.jpg" alt="Ambatukam" />
             <h2>Dreamybull</h2>
             <div class="button-container">
