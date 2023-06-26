@@ -1,13 +1,13 @@
 # Lern-Bericht
-✍️ ggf. Ihr Gruppenname und Ihre Gruppenmitglieder
+Goji (Pascal Oestrich, Simon Veljkovic, Julian Alexander.Warnebold, Lorenzo Lai)
 
 ## Einleitung
 
-✍️ Ein Satz, worum es in dem Projekt ging. Muss für einen externen Leser einfach zu verstehen sein.
+In diesem Projekt haben wir selbst eine Pizza Webseite erstellt, mit hilfe von HTML und CSS.
 
 ## Was habe ich gelernt?
 
-✍️ Beschreiben Sie in einem Satz **eine** Sache, die Sie bei diesem Projekt gelernt haben und die Sie in diesem Lern-Bericht dokumentieren.
+Wir haben gelernt, wie man Felx-Boxen richtig verwenden kann und wo man sie anwenden kann.
 
 ## Beschreibung
 
