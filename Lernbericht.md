@@ -11,7 +11,7 @@ Wir haben gelernt, wie man Felx-Boxen richtig verwenden kann und wo man sie anwe
 
 ## Beschreibung
 
-✍️ Verwenden Sie drei verschiedene Medien, um zu zeigen, was Sie gelernt haben. Zum Beispiel:
+`Flexbox` ist ein leistungsstarkes CSS-Layout-Modell, das uns ermöglicht, `Elemente` innerhalb eines `Containers` flexibel und effizient zu positionieren. Wir können die Ausrichtung, Reihenfolge und Grösse der Elemente mit Hilfe von Flexbox steuern, indem wir dem Container und den darin enthaltenen Elementen entsprechende `Eigenschaften` zuweisen. Durch die Verwendung von Flexbox können wir komplexe Layout-Herausforderungen meistern und gleichzeitig `responsives Design` erstellen, das sich an verschiedene Bildschirmgrößen anpasst und das ist alles möglich, ohne die anwendug von JS.
 
 * Eine textliche Beschreibung
 * Ein deutliches, aussagekräftiges Bild oder eine kommentierte Bildschirm-Aufnahme
