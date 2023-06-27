@@ -46,7 +46,9 @@ Um jetzt eine Flexbox zu erstellen, schreibt man `display: flex;`. Das `display:
 
 ## Verifikation
 
-✍️ Erklären Sie kurz und bündig, inwiefern die von Ihnen verwendeten Medien zeigen, was Sie gelernt haben.
+* Der Text erklärt, was eine Flexbox ist, für was sie gebraucht wird und wie man eine erstellt.
+* Das Bild (HTML) und der Codeschnipsel (CSS) zeigt wie eine Flexbox in der Praxis aussieht.
+* Das GIF zeigt, den HTML und CSS Code und die dazugehörende Website. Das GIF stellt dar, wie die Flexbox in unsere Website aussieht. 
 
 # Reflexion zum Arbeitsprozess
 
