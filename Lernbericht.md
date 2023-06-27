@@ -7,7 +7,7 @@ In diesem Projekt haben wir selbst eine Pizza Webseite erstellt, mithilfe von HT
 
 ## Was habe ich gelernt?
 
-Wir haben gelernt, wie man Flex-Boxen richtig verwenden und anwenden kann.
+Wir haben gelernt, wie man Flex-Boxen richtig verwenden und anwenden können.
 
 ## Beschreibung
 
