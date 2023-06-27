@@ -13,6 +13,32 @@ Wir haben gelernt, wie man Flex-Boxen richtig verwenden kann und wo man sie anwe
 
 `Flexbox` ist ein leistungsstarkes CSS-Layout-Modell, das uns ermöglicht, `Elemente` innerhalb eines `Containers` flexibel und effizient zu positionieren. Wir können die Ausrichtung, Reihenfolge und Grösse der Elemente mit Hilfe von Flex-boxen steuern, indem wir dem Container und den darin enthaltenen Elementen entsprechende `Eigenschaften` zuweisen. Mit Hilfe von Flex-Boxen können wir komplexe Layout-Herausforderungen meistern und gleichzeitig `responsives Design` erstellen, das sich an verschiedene Bildschirmgrössen anpasst und das ist alles möglich, ohne die anwendug von JS.
 
+Um eine Flexbox zu erstellen, schreibt man im HTML einen Container, der eine bestimmte klasse wie `Flex-Box` hat. Danach kann man in dem Container weitere Container wie `Flex-Item` anlegen, die alle haben die gleiche klasse.
+
+![image](https://github.com/Loreytox/LA-1600/assets/110892258/42ab7e9f-3f79-406f-9a48-ede1479bda61)
+
+Um nun eine Flexbox zu erstellen muss man in CSS gewisse Codes verwenden.
+```CSS
+.Flex-Box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  border-radius: 10px;
+  padding: 20px;
+}
+.Flex-Item {
+  flex: 1;
+  text-align: left;
+  background-color: #1e1f26;
+  letter-spacing: 0.5rem;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  min-height: 400px;
+  margin: 20px;
+}
+```
+Um jetzt eine Flexbox zu erstellen, schreibt man `display: lex;`. Dannach kann man angeben, wie die Flexitems aufgerheit und sortiert werden. Im Conatiner Flex-Itme sollte man nun `flex: 1;` schreiben. Daraufhin kann man nun die jeweiligen Itmens nach aussehen, grösse definieren.
+
 * Eine textliche Beschreibung
 * Ein deutliches, aussagekräftiges Bild oder eine kommentierte Bildschirm-Aufnahme
 * Ein gut dokumentierter Code-Fetzen
