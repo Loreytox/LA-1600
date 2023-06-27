@@ -55,4 +55,4 @@ Obwohl es grosse Schwierigkeiten gab, konnten wir dennoch alle unsere Ziele erre
 
 Es lief alles ziemlich gut, ausser bei einem von uns.
 
-**VBV**: Obwohl wir dieses Mal gut zusammengearbeitet haben, bedeutet das nicht, dass wir uns nicht weiter verbessern können. Für das nächste Mal schlage ich vor, dass wir mehrmals pro Woche den Fortschritt aller Aufträge überprüfen, um den Überblick darüber zu behalten, wo die anderen stehen.
+**VBV**: Obwohl wir dieses Mal gut zusammengearbeitet haben, bedeutet das nicht, dass wir uns nicht weiter verbessern können. Für das nächste Mal schlage ich vor, dass wir mehrmals pro Woche den Fortschritt aller Aufträge überprüfen, um den Überblick darüber zu behalten, wo wir stehen.
