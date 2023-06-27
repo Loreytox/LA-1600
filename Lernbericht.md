@@ -11,9 +11,9 @@ Wir haben gelernt, wie man Flex-Boxen richtig verwenden und anwenden kann.
 
 ## Beschreibung
 
-`Flexbox` ist ein leistungsstarkes CSS-Layout-Modell, das uns ermöglicht, `Elemente` innerhalb eines `Containers` flexibel und effizient zu positionieren. Wir können die Ausrichtung, Reihenfolge und Grösse der Elemente mit Hilfe von Flex-boxen steuern, indem wir dem Container und den darin enthaltenen Elementen entsprechende `Eigenschaften` zuweisen. Mit Hilfe von Flex-Boxen können wir komplexe Layout-Herausforderungen meistern und gleichzeitig `responsives Design` erstellen, das sich an verschiedene Bildschirmgrössen anpasst und das ist alles ohne die Anwendung von JS möglich.
+`Flexbox` ist ein leistungsstarkes CSS-Layout-Modell, das uns ermöglicht, `Elemente` innerhalb eines `Containers` flexibel und effizient zu positionieren. Wir können die Ausrichtung, Reihenfolge und Grösse der Elemente mithilfe von Flex-boxen steuern, indem wir dem Container und den darin enthaltenen Elementen entsprechende `Eigenschaften` zuweisen. Mithilfe von Flex-Boxen können wir komplexe Layout-Herausforderungen meistern und gleichzeitig `responsives Design` erstellen, das sich an verschiedene Bildschirmgrössen anpasst und das ist alles ohne die Anwendung von JS möglich.
 
-Um eine Flexbox zu erstellen, schreibt man in HTML einen Container, der eine bestimmte klasse wie `Flex-Box` hat. Danach kann man in dem Container weitere Container wie `Flex-Item` anlegen, die alle haben die gleiche klasse.
+Um eine Flexbox zu erstellen, schreibt man in HTML einen Container, der eine bestimmte Klasse wie `Flex-Box` hat. Danach kann man in dem Container weitere Container wie `Flex-Item` anlegen, die alle haben die gleiche klasse.
 
 ![image](https://github.com/Loreytox/LA-1600/assets/110892258/42ab7e9f-3f79-406f-9a48-ede1479bda61)
 
@@ -37,9 +37,9 @@ Um nun eine Flexbox zu erstellen muss man in CSS gewisse Codes verwenden.
   margin: 20px;
 }
 ```
-Um eine Flexbox zu erstellen, schreibt man `display: flex;`. Das `display: flex;` sorgt dafür, dass alle direkten nachkommenden Container im Flexcontainer in einer Zeile oder Spalte geordnet werden. Danach kann man angeben, wie die Flexitems aufgereiht und sortiert werden. Im Container Flex-Item kann man nun die jeweiligen Items / Container nach Aussehen und Grösse definieren (z.B. kann auch mit `box-shadow` wählen, ob es einen Schatteneffekt haben sollte).  Dazu dient auch das `flex: 1;`. Im obrigen Beispiel dient dies für die Festlegung der Proportionen. Die Zahl dahinter bestimmt einen Modus. Bei 1 wird der Container im gleichen Verhälntis wie die Fenstergrösse verkleinert. Bei 0 hat der Container keine Startwerte und bei 3 nimmt der Container eine Grösse von 33% von der Flexbox ein.
+Um eine Flexbox zu erstellen, schreibt man `display: flex;`. Das `display: flex;` sorgt dafür, dass alle direkten nachkommenden Container im Flexcontainer in einer Zeile oder Spalte geordnet werden. Danach kann man angeben, wie die Flexitems aufgereiht und sortiert werden. Im Container Flex-Item kann man nun die jeweiligen Items / Container nach Aussehen und Grösse definieren (z.B. kann auch mit `box-shadow` wählen, ob es einen Schatteneffekt haben sollte).  Dazu dient auch das `flex: 1;`. Im obigen Beispiel dient dies für die Festlegung der Proportionen. Die Zahl dahinter bestimmt einen Modus. Bei 1 wird der Container im gleichen Verhältnis wie die Fenstergrösse verkleinert. Bei 0 hat der Container keine Startwerte und bei 3 nimmt der Container eine Grösse von 33% von der Flexbox ein.
 
-Das wäre die Flexbox von unsere Website:
+Das wäre die Flexbox von unserer Website:
 
 ![7qpmho](https://github.com/Loreytox/LA-1600/assets/110893594/7e5970ce-002f-4f3d-af0d-5d59d38be6b5)
 
