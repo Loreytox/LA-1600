@@ -37,7 +37,7 @@ Um nun eine Flexbox zu erstellen muss man in CSS gewisse Codes verwenden.
   margin: 20px;
 }
 ```
-Um jetzt eine Flexbox zu erstellen, schreibt man `display: lex;`. Dannach kann man angeben, wie die Flexitems aufgerheit und sortiert werden. Im Conatiner Flex-Itme sollte man nun `flex: 1;` schreiben. Daraufhin kann man nun die jeweiligen Itmens nach aussehen, grösse definieren.
+Um jetzt eine Flexbox zu erstellen, schreibt man `display: lex;`. Das `display: flex;` sorgt dafür, dass alle direkten Nachkommende Container im Flexcontainer in einer Zeile oder Spalte geordnet werden. Dannach kann man angeben, wie die Flexitems aufgerheit und sortiert werden. Im Conatiner Flex-Item kann kann man nun die jeweiligen Items / Container nach aussehen, grösse definieren. Dazu dient auch das `flex: 1;`. im obrigen Beispiel dient dies für die Festlegung der Proportionen. Die Zahl dahinter bestimmt einen Modus. Bei 1 wird der Container im gleichen Verhälntis wie die Fenstergrösse verkleinert. Bei 0 , hat der Container keine startwerte und bei 3 nimmt der Container eine grösse von 33% von der Flexbox ein.
 
 * Eine textliche Beschreibung
 * Ein deutliches, aussagekräftiges Bild oder eine kommentierte Bildschirm-Aufnahme
