@@ -51,8 +51,8 @@ Das wäre das Endresultat:
 
 # Reflexion zum Arbeitsprozess
 
-👍 Überlegen Sie sich jeweils etwas, was gut an Ihrer Arbeit lief; 
+Obwohl es grosse Schwierigkeiten gab, konnten wir dennoch alle unsere Ziele erreichen. Es gab eine gute und geplante Koordination, bei der jeder seinen Auftrag hatte.
 
-👎 und etwas, was nicht gut lief.
+Es lief alles ziemlich gut, ausser bei einem von uns.
 
-**VBV**: ✍️ Formulieren Sie davon ausgehend einen *handelbaren* Verbesserungsvorschlag.
+**VBV**: Auch wenn wir dieses Mal gut zusammengearbeitet haben, heisst das nicht, dass wir uns nicht verbessern können. Ich schlage vor, dass wir nächstes Mal alles mehrmals pro Woche durchgehen, damit ich weiss, wo die anderen mit ihren Aufträgen stehen.
