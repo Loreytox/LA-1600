@@ -154,3 +154,5 @@ Wir machen es mit HTML und CSS.
 | 10.1 | 13.06      | OK         | Simon       |
 
 ## 6 Auswerten
+
+[Hier](Lernbericht.md) wäre unser Lernbericht.
